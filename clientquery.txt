@@ -1,0 +1,32 @@
+---------------------------
+query getAllUsers{
+  users{
+    _id
+    firstName
+    lastName
+    email
+  }
+}
+---------------------------
+query getUserById{
+  user(_id:"23131"){
+    _id
+    firstName
+    lastName
+    email
+  }
+}
+-----------------------------
+query getAllQuotes{
+  quotes{
+    name
+    by  
+  }
+}
+-----------------------------
+query getQuotebyUser{
+  iquote(by:"4232"){
+    name
+    by
+  }
+}

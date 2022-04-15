@@ -1,0 +1,1 @@
+export const MONGO_URI='mongodb+srv://seema:seema123@cluster0.2qk7r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
